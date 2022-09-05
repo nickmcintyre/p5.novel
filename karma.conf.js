@@ -3,6 +3,8 @@ module.exports = function(config) {
     frameworks: ['mocha', 'chai'],
     files: [
       'node_modules/p5/lib/p5.min.js',
+      // 'node_modules/planck/dist/planck.min.js',
+      // 'node_modules/p5.play/p5.play.js',
       'dist/p5.novel.js',
       'test/**/*.js',
     ],

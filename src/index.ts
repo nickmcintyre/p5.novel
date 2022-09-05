@@ -1,1 +1,2 @@
 import './scene';
+import './sprite';

@@ -106,6 +106,9 @@ function Three() {
     update();
     checkEdges();
     render();
+    stroke('black');
+    strokeWeight(3);
+    line(0, 0, x, y);
   }
 
   function update() {
@@ -129,6 +132,7 @@ function Three() {
   }
 
   function render() {
+    noStroke();
     circle(x, y, 2 * r);
   }
 }
